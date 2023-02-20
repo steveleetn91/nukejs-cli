@@ -7,11 +7,11 @@
     "postinstall": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./dist/libs/serve.js",
-    "build":"./dist/libs/build.ts"
+    "build": "./dist/libs/build.ts"
   },
-  "bin":{
-    "nukejs-serve" : "./dist/libs/serve.js",
-    "nukejs-build" : "./dist/libs/build.js"
+  "bin": {
+    "nukejs-serve": "./dist/libs/serve.js",
+    "nukejs-build": "./dist/libs/build.js"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,8 @@
     "file-loader": "^6.2.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "ip": "^2.0.0",
+    "ip-address": "^8.1.0",
     "mini-css-extract-plugin": "^2.7.2",
     "postcss": "^8.4.20",
     "postcss-loader": "^7.0.2",
